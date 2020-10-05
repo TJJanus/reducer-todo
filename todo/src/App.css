@@ -1,0 +1,82 @@
+
+.todoList {
+  text-align: center;
+}
+
+.todoArea i {
+  font-size: 3.5rem;
+}
+
+.todoArea {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.todo {
+  height: 18rem;
+  width: 18rem;
+  color: black;
+  font-size: 2.5rem;
+  background: #ffc;
+  transition: all 0.2s ease-in-out;
+  margin: 20px;
+}
+
+.todocompleted {
+  transition: all 0.2s ease-in-out;
+  height: 18rem;
+  width: 18rem;
+  color: black;
+  font-size: 2.5rem;
+  text-decoration: line-through;
+  background: #ffc;
+  margin: 20px;
+}
+
+.todo:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+  position: relative;
+  z-index: 5;
+}
+
+.todocompleted:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+  position: relative;
+  z-index: 5;
+}
+
+.todoInfo {
+  font-size: 2rem;
+}
+
+.form {
+  margin: 10%;
+  color: white;
+  font-size: 2rem;
+}
+
+button {
+  font-size: 1.6rem;
+  font-family: Reenie Beanie;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #ffc;
+  color: black;
+  border: 2px solid #ffc;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(121, 120, 120, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  font-size: 5rem;
+}
